@@ -10,8 +10,10 @@ public class Carteira {
         this.senhaAcesso = senhaAcesso;
     }
 
-    public void depositar (double qtd) {
-        this.saldoBitcoin += qtd;
+    public void depositar(double valor) {
+    saldoBitcoin += valor;
+    System.out.println("Depósito Feito!");
+}
     }
 
 }
